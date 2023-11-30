@@ -1,5 +1,5 @@
 #body {
-    background-color: #ebebeb;
+    background-color: rgb(165, 197, 228);
     font-weight: bold;
     font-family: helmet;
 }
@@ -14,7 +14,7 @@ body{
     top: 0;
 	width: 100%;
 	padding: 20px;
-	background-color: #ff91f4;
+	background-color: rgb(0, 4, 53);
 }
 
 .navbar ul {
@@ -53,20 +53,21 @@ body{
     align-items: center;
 }
 
-.alb {
-    text-decoration: none;
-    color: blueviolet;
-    font-size: x-large;
+.monCount h1:hover{
+    transition: transform .3s;
+    transform: scale(1.2);
+	background-color: #ff9cbb;
 }
 
 .monCount {
     text-align: center;
-    padding: 20;
+    padding: 5;
     max-width: 450px;
 }
 
 .monCount h1 {
     font-size: 90px;
+    color: azure;
 }
 
 .collection {
@@ -83,9 +84,10 @@ body{
 }
 
 .hlStxt {
+    font-size: large;
     max-width: 600px;
-    max-height: 1500px;
     align-items: left;
+    color: rgb(255, 255, 255);
 }
 
 .hlS {
@@ -95,9 +97,16 @@ body{
     align-items: center;
     padding: 70px;
     max-width: 600px;
-    max-height: 2720px;
-    background-color: bisque;
+    max-height: 2800px;
+    background-color: rgb(80, 140, 190);
     border-radius: 25px;
+}
+
+.maintxt {
+    padding: 40;
+    border-radius: 25px;
+	background-color: rgb(0, 4, 53);
+    color: #d9d9d9;
 }
 
 .imgs{

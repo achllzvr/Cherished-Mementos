@@ -53,10 +53,15 @@ body{
     align-items: center;
     padding: 40px;
     margin-top: 150;
+    text-decoration: none;
 }
 
 .title {
     font-size: larger;
+}
+
+.title{
+    text-decoration: none;
 }
 
 .title h1{
